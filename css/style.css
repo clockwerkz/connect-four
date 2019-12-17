@@ -1,0 +1,31 @@
+.grid {
+    width: 80%;
+    height: 400px;
+    background-color: #888;
+    margin: 0 auto;
+    display: flex;
+  }
+  
+  .column {
+    width: 20%;
+    height: 100%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  
+  .chip {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+  
+  .chip--red {
+    background-color: red;
+  }
+  
+  .chip--yellow {
+    background-color: yellow;
+  }
