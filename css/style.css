@@ -2,7 +2,7 @@
     width: 65%;
     height: 400px;
     background-color: #888;
-    margin: 60px auto;
+    margin: 80px auto;
     display: flex;
   }
   
@@ -28,4 +28,22 @@
   
   .chip--yellow {
     background-color: yellow;
+  }
+
+  .endgame {
+    display: none;
+    position: absolute;
+    text-align: center;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .show {
+    display: block;
+  }
+
+  .endgame h1 {
+    margin: 0;
+    padding: 0;
   }
